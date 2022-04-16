@@ -73,7 +73,7 @@ a{
      cursor: pointer;
 }
 
-#btn-cad{
+.btn-cad{
 
     width: 120px;
     height: 44px;
@@ -96,7 +96,7 @@ a{
     color: #8E2424 ;
 }
 
-#btn-cad:hover{
+.btn-cad:hover{
 
     background-color: #aa3232;
 }
@@ -260,5 +260,97 @@ a{
     display: flex;
     width: 30%;
     margin: 0 auto;
+}
+
+/* Depoimentos */
+
+.depoimentos{
+
+    position: relative;
+    top: 15em;
+    text-align: center;
+    background: rgba(142, 36, 36, 0.05);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.depoimentos #span{
+
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+.depoimentos h1{
+
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.depoimentos img{
+
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.detail{
+
+    display: block;
+    padding-bottom: .3rem;
+}
+
+#detail2{
+
+    color: #667085;
+}
+
+footer{
+
+    position: relative;
+    top: 25em;
+    text-align: center;
+}
+
+footer h1{
+
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+footer #text{
+
+    font-size: 20px;
+    font-weight: 400;
+    color:#667085;
+    display: inline-block;
+    padding-bottom: 2rem;
+
+}
+
+footer input[type=email]{
+
+    width: 20em;
+    height: 3em;
+    border: 1px solid #667085;
+    border-radius: .5em;
+    font-size: 15px;
     
+}
+
+footer form {
+
+    padding-bottom: 2em;
+}
+
+footer #copy{
+
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 3em;
 }
