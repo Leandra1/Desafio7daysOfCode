@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=BhuTuka+Expanded+One&family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.container{
+
+    margin: 0 2em 0 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.cabecalho{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.navbar > a {
+
+    
+    font-size: 16px;
+    color: #667085;
+    font-weight: 500;
+}
+
+.logo .img-logo{
+
+    width: 148px;
+    height: 27px;
+}
+
+.navbar a{
+
+    margin-right: 1em;
+    
+}
+
+
+.button{
+
+    display: flex;
+}
+
+#btn-log{
+
+     width: 80px;
+     height: 44px;
+     background-color: #fff;
+     color: #667085;
+     border:none;
+     font-size: 16px;
+     margin-right: 10px;
+     cursor: pointer;
+}
+
+#btn-cad{
+
+    width: 120px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8E2424;
+    border: none;
+    border-radius: 6px; 
+    cursor: pointer  
+}
+
+
+.navbar a:hover{
+
+    color: #8E2424 ;
+}
+
+#btn-log:hover{
+
+    color: #8E2424 ;
+}
+
+#btn-cad:hover{
+
+    background-color: #aa3232;
+}
+
+/* Primeira seção sobre nós */
+
+.sobre-nos{
+
+    display: flex;
+    padding-top: 5em;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.sobre-nos span{
+
+    color: #8E2424;
+    font-weight: 600;
+    
+}
+
+.sobre-nos h1{
+
+    font-size: 48px;
+}
+
+.sobre-nos p{
+
+    max-width: 50%;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #667085;
+}
+
+/* seção métricas*/
+
+.metricas{
+
+    display: flex;
+    padding-top: 8em;
+    gap: 3em;
+    justify-content: center;
+}
+
+.metricas h1{
+
+    font-size: 50px;
+    color: #8E2424;
+}
+
+.metricas h3{
+
+    font-size: 18px;
+    padding: 1rem 0;
+}
+
+.metricas p{
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+    line-height: 1.5rem;
+}
+
+/* Seção vagas abertas*/
+
+.vagas{
+
+    text-align: center;
+    position: relative;
+    top: 8em;
+}
+
+.vagas .info{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.vagas span{
+
+    margin: 2em 0;
+    padding: .5em;
+    display: inline-block;
+    color: #8E2424;
+    text-align: center;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 2rem;
+}
+
+.vagas .info h1{
+
+    font-size: 36px;
+}
+
+.vagas .info p{
+
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+    
+}
+
+.vagas .info img{
+
+    width: 70em;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.vagas-disponiveis{
+
+    position: relative;
+    top: 8em;
+    max-width: 80%;
+
+}
+
+.vagas-disponiveis .area {
+
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 40%;
+    margin: 0 auto;
+    
+}
+
+.area span{
+
+    font-size: 20px;
+}
+
+.cargo span{
+
+    font-size: 18px;
+}
+
+.details span{
+
+    font-size: 16px;
+    color: #667085;
+}
+
+.container2 {
+
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-end;
+    gap: 1em;
+    padding-bottom: 2em;
+}
+
+.vagas-disponiveis .cargo, .details{
+
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    
+}
